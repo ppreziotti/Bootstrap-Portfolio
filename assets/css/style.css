@@ -1,13 +1,31 @@
-.navbar {
-	
+html {
+	position: relative;
+	min-height: 100%;
 }
 
-body {
-	background-image: url("../images/concrete_seamless.png");
+nav {
+	color: #ffffff;
+	background-color: #666666;
+	padding: 20px;
+}
+
+.navbar-default > .navbar a {
+	color: #fff;
+}
+
+.navbar-brand {
+	font-size: 32px;
+	color: #fff;
+	height: 100%;
+}
+
+#main-container {
+	min-height: 100%;
 }
 
 .panel-default {
 	margin-top: 60px;
+	background-image: url("../images/concrete_seamless.png");
 }
 
 .panel-default > .panel-heading {
@@ -15,32 +33,40 @@ body {
 }
 
 footer {
+	color: #ffffff;
+	background-color: #666666;
+	width: 100%;
+	font-size: 12px;
 	text-align: center;
+	padding: 30px 0;
+	border-top: 8px solid #4aaaa5;
+	margin-top: 85px;
 }
 
 .panel-body {
-	max-width: 100%;
-}
-
-.social {
-	width: 33.3%;
-	margin-top: 8px;
-	margin-right: 4px;
+	width: 100%;
 }
 
 .portfolio {
 	position: relative;
 }
 
-h3 {
+body {
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.img-responsive {
+	position: relative;
+	margin-top: 10px;
+}
+
+.caption {
+	position: absolute;
+	bottom: 10px;
 	text-align: center;
 	color: #ffffff;
 	background-color: #4aaaa5;
-	position: absolute;
-	bottom: 10px;
-	width: 100%;
-	padding: 15px;
-	margin-bottom: 0;
-	line-height: 30px;
-	font-weight: 300;
+	width: 90%;
 }
