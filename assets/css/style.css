@@ -1,0 +1,46 @@
+.navbar {
+	
+}
+
+body {
+	background-image: url("../images/concrete_seamless.png");
+}
+
+.panel-default {
+	margin-top: 60px;
+}
+
+.panel-default > .panel-heading {
+	background-color: #4aaaa5;
+}
+
+footer {
+	text-align: center;
+}
+
+.panel-body {
+	max-width: 100%;
+}
+
+.social {
+	width: 33.3%;
+	margin-top: 8px;
+	margin-right: 4px;
+}
+
+.portfolio {
+	position: relative;
+}
+
+h3 {
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0;
+	line-height: 30px;
+	font-weight: 300;
+}
